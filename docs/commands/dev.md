@@ -19,6 +19,8 @@ netlify dev
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 - `command` (*option*) - command to run
 - `port` (*option*) - port of netlify dev
 - `targetPort` (*option*) - port of target app server
@@ -56,6 +58,8 @@ netlify dev:exec
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 
 **Examples**
 

@@ -45,6 +45,8 @@ netlify functions:build
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 - `functions` (*option*) - Specify a functions folder to build to
 - `src` (*option*) - Specify the source folder for the functions
 
@@ -66,6 +68,8 @@ netlify functions:create
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 - `name` (*option*) - function name
 - `url` (*option*) - pull template from URL
 
@@ -95,6 +99,8 @@ netlify functions:invoke
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 - `name` (*option*) - function name to invoke
 - `functions` (*option*) - Specify a functions folder to parse, overriding netlify.toml
 - `querystring` (*option*) - Querystring to add to your function invocation

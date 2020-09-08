@@ -47,6 +47,8 @@ netlify sites:create
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 - `name` (*option*) - name of site
 - `account-slug` (*option*) - account slug to create the site under
 - `with-ci` (*boolean*) - initialize CI hooks during site creation
@@ -73,6 +75,8 @@ netlify sites:delete {site-id}
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 - `force` (*boolean*) - delete without prompting (useful for CI)
 
 **Examples**
@@ -95,6 +99,8 @@ netlify sites:list
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 - `json` (*boolean*) - Output site data as JSON
 
 ---

@@ -25,6 +25,8 @@ netlify api
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 - `data` (*option*) - Data to use
 - `list` (*boolean*) - List out available API methods
 

@@ -17,6 +17,8 @@ netlify link
 **Flags**
 
 - `debug` (*boolean*) - Print debugging information
+- `httpProxy` (*option*) - Proxy server address to route requests through.
+- `httpProxyCertificateFilename` (*option*) - Certificate file to use when connecting using a proxy server
 - `id` (*option*) - ID of site to link to
 - `name` (*option*) - Name of site to link to
 - `gitRemoteName` (*option*) - Name of Git remote to use. e.g. "origin"
